@@ -15,7 +15,7 @@ public class SecondFrame extends JFrame
 		this.appController = appController;
 		this.appPanel = new SecondPanel(appController);
 		
-		
+		setupFrame();
 	}
 	
 	public void setupFrame()
